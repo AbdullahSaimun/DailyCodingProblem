@@ -1,4 +1,4 @@
-package org.problem.solving.facebook;
+package org.problem.solving.all;
 
 /*This problem was asked by Facebook.
 

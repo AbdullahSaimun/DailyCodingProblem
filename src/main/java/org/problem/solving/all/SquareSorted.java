@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class SquareSorted {
 
 	public static List<Integer> squareAndSort(List<Integer> nums) {
-		nums = nums.stream().map(obj -> obj * obj)
+		nums = nums.stream().map(obj -> (int)Math.pow(obj,2))
 				.collect(Collectors.toList());
 		Collections.sort(nums);
 		return nums;
