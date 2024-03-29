@@ -12,11 +12,6 @@ using less than 2 * (N - 2) comparisons.*/
 
 public class MinMaxPairwise {
 
-	static class MinMax {
-		int min;
-		int max;
-	}
-
 	public static MinMax findMinMax(int arr[]) {
 		MinMax minMax = new MinMax();
 		int length = arr.length;
@@ -59,11 +54,16 @@ public class MinMaxPairwise {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = {33,54,1,4433,534,12,90};
+		int[] arr = {33, 54, 1, 4433, 534, 12, 90};
 
 		MinMax resutl = findMinMax(arr);
-		System.out.println("Minimum result is "+ resutl.min);
-		System.out.println("Maximum result is "+ resutl.max);
+		System.out.println("Minimum result is " + resutl.min);
+		System.out.println("Maximum result is " + resutl.max);
 
+	}
+
+	static class MinMax {
+		int min;
+		int max;
 	}
 }
