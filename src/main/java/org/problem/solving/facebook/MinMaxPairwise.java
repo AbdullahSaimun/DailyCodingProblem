@@ -60,6 +60,10 @@ public class MinMaxPairwise {
 		System.out.println("Minimum result is " + resutl.min);
 		System.out.println("Maximum result is " + resutl.max);
 
+//		output below
+//		Minimum result is 1
+//		Maximum result is 4433
+
 	}
 
 	static class MinMax {
